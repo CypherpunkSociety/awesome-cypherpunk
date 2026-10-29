@@ -99,8 +99,23 @@ A curated list of open-source digital self-defense tools, operational security g
 
 ## 8. Open-Source Intelligence (OSINT) & Public-Interest Data
 
-- **[Bellingcat Online Investigation Toolkit](https://bellingcat.gitbook.io/toolkit)** — Searchable, community-maintained directory of satellite imagery, geolocation, maritime/aviation tracking, and social-media verification tools.
-- **[Bellingcat Discord & Biweekly Thursday Stage Talks](https://discord.gg/bellingcat)** — Live OSINT workshops and investigator Q&As.
+### Bellingcat Open-Source Tools & Interactive Training
+- **[Bellingcat Online Investigation Toolkit](https://bellingcat-toolkit.pages.dev/)** ([`github.com/bellingcat/toolkit`](https://github.com/bellingcat/toolkit)) — Searchable, community-maintained directory of satellite imagery, geolocation, maritime/aviation tracking, and social-media verification tools.
+- **[Bellingcat Open Source Challenge (`challenge.bellingcat.com`)](https://challenge.bellingcat.com/)** — Free interactive CTF platform with 100+ hands-on geolocation, chronolocation, satellite, and maritime OSINT puzzles ideal for group workshops.
+- **[Bellingcat Open-Source Research Notebooks](https://github.com/bellingcat/open-source-research-notebooks)** — Ready-to-run Jupyter / Google Colab notebooks teaching command-line and Python OSINT tools with zero local setup.
+- **[Bellingcat Workshops (`bellingcat.com/workshops`)](https://www.bellingcat.com/workshops)** & **[Biweekly Thursday Discord Stage Talks](https://discord.gg/bellingcat)** — Live OSINT masterclasses and community walkthroughs.
+- **Core Open-Source Repositories at [`github.com/bellingcat`](https://github.com/bellingcat):**
+  - **[`auto-archiver`](https://github.com/bellingcat/auto-archiver)** — Automatically archive, hash, and screenshot social media posts, videos, and web pages from spreadsheets before they are taken down.
+  - **[`osm-search`](https://osm-search.bellingcat.com/)** ([`github.com/bellingcat/osm-search`](https://github.com/bellingcat/osm-search)) — Visual proximity search over OpenStreetMap landmarks for photo/video geolocation without writing Overpass QL.
+  - **[`ShadowFinder`](https://github.com/bellingcat/ShadowFinder)** — Calculates possible global coordinates of an image from object height, shadow length, and timestamp.
+  - **[`sar-interference-tracker`](https://github.com/bellingcat/sar-interference-tracker)** — Google Earth Engine tool detecting military GPS/radar interference in Sentinel-1 SAR satellite imagery.
+  - **[`wayback-google-analytics`](https://github.com/bellingcat/wayback-google-analytics)** — Links networks of websites by scraping historical Google Analytics IDs across the Wayback Machine.
+  - **[`EDGAR`](https://github.com/bellingcat/EDGAR)** — Toolkit for investigating corporate and financial SEC filings.
+  - **[`octosuite`](https://github.com/bellingcat/octosuite)** & **[`telegram-phone-number-checker`](https://github.com/bellingcat/telegram-phone-number-checker)** — CLI tools for GitHub and Telegram OSINT.
+- **Third-Party Open-Source Tools Recommended by Bellingcat:**
+  - **[QGIS](https://qgis.org/)** (open-source desktop GIS), **[Overpass Turbo](https://overpass-turbo.eu/)** (OSM query mining), **[ExifTool](https://exiftool.org/)**, **[InVID / WeVerify](https://www.invid-project.eu/tools-and-services/invid-verification-plugin/)** (video keyframe & reverse-image verification), **[yt-dlp](https://github.com/yt-dlp/yt-dlp)**, **[ArchiveBox](https://archivebox.io/)**, and **[Whisper.cpp](https://github.com/ggml-org/whisper.cpp)**.
+
+### Cross-Border & Domestic Public-Interest Databases
 - **[OCCRP Aleph](https://aleph.occrp.org/)** ([`github.com/alephdata/aleph`](https://github.com/alephdata/aleph)) — Open-source investigative data platform indexing company registries, leaked archives, sanctions lists, and court filings for cross-border journalism.
 - **[ProPublica Open-Source & Data Tools](https://github.com/propublica)** —
   - **[Nonprofit Explorer & API](https://projects.propublica.org/nonprofits/)** — Searchable database of millions of IRS Form 990 filings.

@@ -87,14 +87,31 @@ A curated list of open-source digital self-defense tools, operational security g
 - **[Nos Oignons](https://nos-oignons.net/)** — French sister non-profit operating community-funded Tor exit nodes alongside **[La Quadrature du Net](https://www.laquadrature.net/)**.
 - **[The Calyx Institute](https://calyxinstitute.org/)** — Non-profit privacy educator, Tor relay sponsor, and developer of CalyxOS.
 
-## 7. Counter-Surveillance & Spyware Forensics
+## 7. Counter-Surveillance, Censorship Measurement & Cognitive Security
 
-- **[The Citizen Lab (UofT Munk School)](https://citizenlab.ca/)** — Interdisciplinary laboratory investigating commercial spyware (Pegasus, Predator, Candiru), transnational repression, and network censorship ([Events & Seminars](https://munkschool.utoronto.ca/events)).
-- **[Mobile Verification Toolkit (MVT)](https://github.com/mvt-project/mvt)** — Open-source forensic tool developed by Amnesty International Security Lab (used alongside Citizen Lab indicators of compromise) to inspect iOS and Android backups for mercenary spyware traces.
+### The Citizen Lab, Amnesty Tech & Spyware Forensics
+- **[The Citizen Lab (UofT Munk School)](https://citizenlab.ca/)** — Interdisciplinary laboratory investigating commercial spyware (Pegasus, Predator, Candiru), transnational repression, and network censorship ([Events & Seminars](https://munkschool.utoronto.ca/events) · [Citizen Lab Summer Institute](https://citizenlab.ca/summerinstitute/)).
+- **[Citizen Lab Open-Source Repositories (`github.com/citizenlab`)](https://github.com/citizenlab):**
+  - **[`citizenlab/test-lists`](https://github.com/citizenlab/test-lists)** — Community-curated URL testing lists for 200+ countries used by OONI and Censored Planet to detect website blocking.
+  - **[`citizenlab/malware-indicators`](https://github.com/citizenlab/malware-indicators)** & **[`citizenlab/malware-signatures`](https://github.com/citizenlab/malware-signatures)** — Open-source YARA rules and IoCs from targeted spyware investigations.
+  - **[`citizenlab/chat-censorship`](https://github.com/citizenlab/chat-censorship)** — Data and methodology for measuring automated keyword and image filtering in chat apps.
+- **[Amnesty International Security Lab (`github.com/AmnestyTech`)](https://github.com/AmnestyTech)** — Co-investigators on the Pegasus Project; maintains **[`AmnestyTech/investigations`](https://github.com/AmnestyTech/investigations)** (spyware IoCs) and **[Mobile Verification Toolkit (`mvt-project/mvt`)](https://github.com/mvt-project/mvt)** to inspect iOS and Android backups for mercenary spyware traces.
+
+### Global Network Censorship Measurement
+- **[OONI — Open Observatory of Network Interference (`ooni.org`)](https://ooni.org/)** ([`github.com/ooni`](https://github.com/ooni)) — Spun out of the Tor Project; anyone can run the open-source **OONI Probe** app to test network blocking/throttling and publish real-time measurements to **[OONI Explorer (`explorer.ooni.org`)](https://explorer.ooni.org/)**.
+- **[Censored Planet (University of Michigan)](https://censoredplanet.org/)** — Global remote measurement platform tracking DNS manipulation, TLS middleboxes, and national firewalls.
+
+### Field Counter-Surveillance & Physical Security
 - **[EFF Rayhunter](https://github.com/EFForg/rayhunter)** — Open-source Rust tool by EFF that runs on a $20 Orbic mobile hotspot to detect cell-site simulators (IMSI catchers / Stingrays) in the field.
 - **[EFF Atlas of Surveillance](https://atlasofsurveillance.org/)** — Crowdsourced database documenting police surveillance tech (ALPRs, facial recognition, drones, Ring partnerships, real-time crime centers).
 - **[DeFlock](https://deflock.me/)** — OpenStreetMap-powered community project mapping Automated License Plate Readers (ALPRs).
-- **[Stanford Cognitive Security Task Force](https://hai.stanford.edu/)** — Research on AI-driven persuasion, information integrity, cognitive resilience, and neural/BCI data privacy.
+- **[Precursor / Betrusted (`betrusted.io`)](https://betrusted.io/)** — Bunnie Huang & Xobs's open-hardware, FPGA-verifiable RISC-V handheld device built for high-assurance cryptographic verification.
+
+### Stanford Cyber Policy Center, SIO & Cognitive Security
+- **[Stanford Cognitive Security Task Force](https://hai.stanford.edu/)** & **[Stanford Cyber Policy Center](https://cyber.fsi.stanford.edu/)** — Research on AI-driven persuasion, information integrity, cognitive resilience, and neural/BCI data privacy.
+- **[Open-Source *Trust and Safety* Curriculum (`tsbook.org`)](https://tsbook.org/)** ([`TeachingTrustSafety` on GitHub](https://github.com/trust-safety-teaching-consortium/TeachingTrustSafety)) — Full open-source textbook, lecture slides, and bot-building labs developed from Stanford's *CS 152: Trust and Safety Engineering*.
+- **[`stanfordio/skyfall`](https://github.com/stanfordio/skyfall)** — Open-source Bluesky AT Protocol firehose ingestion tool built at the Stanford Internet Observatory for studying decentralized social graphs in real time.
+- **[Journal of Online Trust and Safety (`tsjournal.org`)](https://tsjournal.org/)** — Open-access peer-reviewed research on platform manipulation and information security.
 - **[Chaos Computer Club (CCC) Media Archive (`media.ccc.de`)](https://media.ccc.de/)** — Decades of technical lectures on hardware hacking, cryptography, biometrics, and civic infrastructure from Chaos Communication Congress.
 
 ## 8. Open-Source Intelligence (OSINT) & Public-Interest Data
@@ -115,7 +132,11 @@ A curated list of open-source digital self-defense tools, operational security g
 - **Third-Party Open-Source Tools Recommended by Bellingcat:**
   - **[QGIS](https://qgis.org/)** (open-source desktop GIS), **[Overpass Turbo](https://overpass-turbo.eu/)** (OSM query mining), **[ExifTool](https://exiftool.org/)**, **[InVID / WeVerify](https://www.invid-project.eu/tools-and-services/invid-verification-plugin/)** (video keyframe & reverse-image verification), **[yt-dlp](https://github.com/yt-dlp/yt-dlp)**, **[ArchiveBox](https://archivebox.io/)**, and **[Whisper.cpp](https://github.com/ggml-org/whisper.cpp)**.
 
-### Cross-Border & Domestic Public-Interest Databases
+### Cross-Border, Legal OSINT & Public-Interest Databases
+- **[UC Berkeley Human Rights Center Investigation Lab](https://humanrights.berkeley.edu/)** & **[The Berkeley Protocol on Digital Open Source Investigations](https://www.ohchr.org/en/publications/policy-and-methodological-publications/berkeley-protocol-digital-open-source)** — Co-published with the UN OHCHR; the global legal standard for verifying, chain-of-custody archiving, and presenting open-source digital evidence in court.
+- **[Micah Lee's *Hacks, Leaks, and Revelations* (`hacksleaks.com`)](https://hacksleaks.com/)** — Free, open-access hands-on textbook teaching investigative data analysis with Python, SQL, Docker, and OCCRP Aleph on real leaked datasets.
+- **[Distributed Denial of Secrets (`ddosecrets.com`)](https://ddosecrets.com/)** — Non-profit whistleblower and public-interest leak archive (501(c)(3)) indexing terabytes of searchable corporate and government datasets.
+- **[MuckRock (`muckrock.com`)](https://www.muckrock.com/)** & **[DocumentCloud (`documentcloud.org`)](https://www.documentcloud.org/)** ([`github.com/MuckRock`](https://github.com/MuckRock)) — Open-source Freedom of Information Act (FOIA) request automation and collaborative document analysis suite.
 - **[OCCRP Aleph](https://aleph.occrp.org/)** ([`github.com/alephdata/aleph`](https://github.com/alephdata/aleph)) — Open-source investigative data platform indexing company registries, leaked archives, sanctions lists, and court filings for cross-border journalism.
 - **[ProPublica Open-Source & Data Tools](https://github.com/propublica)** —
   - **[Nonprofit Explorer & API](https://projects.propublica.org/nonprofits/)** — Searchable database of millions of IRS Form 990 filings.

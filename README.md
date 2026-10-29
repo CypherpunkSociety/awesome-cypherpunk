@@ -12,10 +12,12 @@ A curated list of open-source digital self-defense tools, operational security g
 - [4. Self-Hosting & Sovereign Cloud Replacements](#4-self-hosting--sovereign-cloud-replacements)
 - [5. Encrypted & Decentralized Communications](#5-encrypted--decentralized-communications)
 - [6. Freedom Bandwidth, Tor & Censorship Circumvention](#6-freedom-bandwidth-tor--censorship-circumvention)
-- [7. Counter-Surveillance & Spyware Forensics](#7-counter-surveillance--spyware-forensics)
-- [8. Open-Source Intelligence (OSINT) & Public-Interest Data](#8-open-source-intelligence-osint--public-interest-data)
-- [9. Aaron Swartz Open-Source Legacy Projects](#9-aaron-swartz-open-source-legacy-projects)
-- [10. Classic Cypherpunk Texts & Archives](#10-classic-cypherpunk-texts--archives)
+- [7. Counter-Surveillance, Censorship Measurement & Cognitive Security](#7-counter-surveillance-censorship-measurement--cognitive-security)
+- [8. Ad-Tech Surveillance, Fingerprinting & Computational Propaganda](#8-ad-tech-surveillance-fingerprinting--computational-propaganda)
+- [9. Open-Source Intelligence (OSINT) & Public-Interest Data](#9-open-source-intelligence-osint--public-interest-data)
+- [10. Wikipedia, Offline Knowledge Commons & Public-Interest Law](#10-wikipedia-offline-knowledge-commons--public-interest-law)
+- [11. Aaron Swartz Open-Source Legacy Projects](#11-aaron-swartz-open-source-legacy-projects)
+- [12. Classic Cypherpunk Texts & Archives](#12-classic-cypherpunk-texts--archives)
 
 ---
 
@@ -114,7 +116,18 @@ A curated list of open-source digital self-defense tools, operational security g
 - **[Journal of Online Trust and Safety (`tsjournal.org`)](https://tsjournal.org/)** — Open-access peer-reviewed research on platform manipulation and information security.
 - **[Chaos Computer Club (CCC) Media Archive (`media.ccc.de`)](https://media.ccc.de/)** — Decades of technical lectures on hardware hacking, cryptography, biometrics, and civic infrastructure from Chaos Communication Congress.
 
-## 8. Open-Source Intelligence (OSINT) & Public-Interest Data
+## 8. Ad-Tech Surveillance, Fingerprinting & Computational Propaganda
+
+*Tools and investigations exposing how browser/device fingerprinting, Real-Time Bidding (RTB) ad markets, and data brokers profile your digital ID and drive algorithmic feeds:*
+
+- **[EFF Cover Your Tracks (`coveryourtracks.eff.org`)](https://coveryourtracks.eff.org/)** *(formerly Panopticlick)* — Live diagnostic tool testing how your browser's Canvas, WebGL, fonts, and hardware entropy create a unique tracking fingerprint even without cookies.
+- **[Mullvad Browser](https://mullvad.net/en/browser)** & **[Tor Browser](https://www.torproject.org/download/)** — Browsers engineered with the Tor Project's anti-fingerprinting patches (`resistFingerprinting` / letterboxing) so every user shares an identical device profile.
+- **[The Markup's *Blacklight* (`themarkup.org/blacklight`)](https://themarkup.org/blacklight)** ([`github.com/the-markup/blacklight-collector`](https://github.com/the-markup/blacklight-collector)) — Open-source real-time website privacy inspector (seeded by Craig Newmark Philanthropies) that scans any URL for canvas fingerprinters, session recorders, keyloggers, and ad-tech pixels.
+- **[ICCL *Enforce* — Real-Time Bidding (RTB) & Data Broker Investigations](https://www.iccl.ie/digital-data/)** & **[Cracked Labs (*Corporate Surveillance in Everyday Life*)](https://crackedlabs.org/)** — Research by Dr. Johnny Ryan and Wolfie Christl exposing how RTB ad auctions broadcast user geolocation and behavioral profiles billions of times per day to data brokers, intelligence contractors, and micro-targeted political campaigns.
+- **[Tracking Exposed (`tracking.exposed`)](https://tracking.exposed/)** & **[AlgorithmWatch](https://algorithmwatch.org/)** — Open-source tools and research auditing how recommendation algorithms personalize and fragment what different users see online.
+- **[Oxford Computational Propaganda Project (COMPROP)](https://www.oii.ox.ac.uk/)** — Research on cyber troops, automated political manipulation, and micro-targeted influence operations.
+
+## 9. Open-Source Intelligence (OSINT) & Public-Interest Data
 
 ### Bellingcat Open-Source Tools & Interactive Training
 - **[Bellingcat Online Investigation Toolkit](https://bellingcat-toolkit.pages.dev/)** ([`github.com/bellingcat/toolkit`](https://github.com/bellingcat/toolkit)) — Searchable, community-maintained directory of satellite imagery, geolocation, maritime/aviation tracking, and social-media verification tools.
@@ -143,7 +156,21 @@ A curated list of open-source digital self-defense tools, operational security g
   - **[`IRSx` (`990-xml-reader`)](https://github.com/propublica/990-xml-reader)** — Python library converting raw IRS 990 XML filings into structured JSON/objects.
   - **[ProPublica Events & Webinars](https://www.propublica.org/events)** — Walkthroughs of investigative methodologies and public datasets.
 
-## 9. Aaron Swartz Open-Source Legacy Projects
+## 10. Wikipedia, Offline Knowledge Commons & Public-Interest Law
+
+### Wikimedia & Offline Knowledge Infrastructure
+- **[Wikipedia & The Wikimedia Foundation (`donate.wikimedia.org`)](https://donate.wikimedia.org/)** — San Francisco-based non-profit stewarding the open encyclopedia, **[Wikidata](https://www.wikidata.org/)** (CC0 structured knowledge graph used across OSINT), and **[Wikimedia Open Dumps (`dumps.wikimedia.org`)](https://dumps.wikimedia.org/)**; plaintiff in *[Wikimedia Foundation v. NSA](https://en.wikipedia.org/wiki/Wikimedia_Foundation_v._NSA)* challenging backbone mass surveillance.
+- **[Kiwix (`kiwix.org`)](https://kiwix.org/)** & **[OpenZIM (`openzim.org`)](https://openzim.org/)** ([`github.com/kiwix`](https://github.com/kiwix)) — Open-source offline reader and `.zim` compression format that packs all of Wikipedia, Project Gutenberg, and Stack Exchange onto a single USB stick or Tails OS drive for censored or internet-blackout environments.
+- **[Internet-in-a-Box (`internet-in-a-box.org`)](https://internet-in-a-box.org/)** — Turns a Raspberry Pi into an offline Wi-Fi library serving Wikipedia, OpenStreetMap, and open educational resources with zero internet connection.
+
+### San Francisco & Bay Area Cyber Civil Defense & Legal Hubs
+- **[UC Law SF (3 blocks from Frontier Tower — 200 McAllister St)](https://www.uclawsf.edu/):**
+  - **[Center for Innovation (C4i) & Startup Legal Garage](https://www.uclawsf.edu/academics/centers/center-for-innovation/)** — Empirical research and legal clinics on platform accountability, open-source/privacy startups, and data governance.
+  - **[LexLab & AI Law & Innovation Institute](https://www.uclawsf.edu/academics/centers/lexlab/)** — Hosts *Privacy Day* and bridges technologists and legal scholars on CCPA/CPRA, the California Delete Act (data-broker opt-out), and Fourth Amendment surveillance law.
+- **[Craig Newmark Philanthropies — *Cyber Civil Defense* Initiative](https://craignewmarkphilanthropies.org/)** — San Francisco philanthropist Craig Newmark's $100M+ collective-defense ecosystem backing EFF, Wikimedia Foundation, ProPublica, The Markup (*Blacklight*), Bellingcat, Freedom of the Press Foundation (*SecureDrop*), and Consumer Reports (*Security Planner*).
+- **[UC Berkeley CLTC *Citizen Clinic* (`cltc.berkeley.edu/program/citizen-clinic`)](https://cltc.berkeley.edu/program/citizen-clinic/)** & **[Consortium of Cybersecurity Clinics (`cyberclinics.org`)](https://cyberclinics.org/)** — Public-interest cybersecurity clinic at UC Berkeley training students to defend politically targeted nonprofits, independent media, and human rights defenders.
+
+## 11. Aaron Swartz Open-Source Legacy Projects
 
 *Active open-source projects founded or inspired by Aaron Swartz (`1986–2013`), featured at the annual November **[Aaron Swartz Day & International Hackathon](https://www.aaronswartzday.org/)** at the Internet Archive:*
 
@@ -154,7 +181,7 @@ A curated list of open-source digital self-defense tools, operational security g
 - **[Tor2web](https://github.com/globaleaks/Tor2web)** — *Status: Maintained by GlobaLeaks/Hermes Center.* Co-created by Aaron Swartz and Virgil Griffith in 2008 to allow whistleblowers without Tor Browser to reach `.onion` dropboxes.
 - **[Aaron Swartz Memorial Archive (`github.com/aaronsw`)](https://github.com/aaronsw)** & **[Raw Thought Blog Archive (`aaronsw.com/weblog`)](http://www.aaronsw.com/weblog/)** — Preserved code and essays.
 
-## 10. Classic Cypherpunk Texts & Archives
+## 12. Classic Cypherpunk Texts & Archives
 
 - **[A Cypherpunk's Manifesto — Eric Hughes (March 9, 1993)](https://www.activism.net/cypherpunk/manifesto.html)** — *"Privacy is necessary for an open society in the electronic age... Cypherpunks write code."*
 - **[The Crypto Anarchist Manifesto — Timothy C. May (1988/1992)](https://www.activism.net/cypherpunk/crypto-anarchy.html)**

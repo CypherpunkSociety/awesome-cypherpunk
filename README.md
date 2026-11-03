@@ -194,4 +194,4 @@ A curated list of open-source digital self-defense tools, operational security g
 
 ## Contributing
 
-Contributions are welcome! Open a pull request or bring a tool to our weekly Thursday clinic (4:00–5:30 PM) at Frontier Tower, San Francisco.
+Contributions are welcome! Open a pull request or bring a tool to our monthly Cypherpunk Night clinic (6:30 PM / 18:30) at Frontier Tower, San Francisco.

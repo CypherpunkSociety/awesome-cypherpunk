@@ -37,7 +37,7 @@ A curated list of open-source digital self-defense tools, operational security g
 
 ## 3. Hardened Operating Systems & Endpoint Security
 
-- **[Tails OS](https://tails.net/)** — Amnesic live operating system booted from a verified USB stick that routes all traffic through Tor and leaves zero trace on the host machine.
+- **[Tails OS](https://tails.net/)** — Amnesic live operating system booted from a verified USB stick that routes all traffic through Tor and, by default, writes nothing to the host machine's disk.
 - **[Qubes OS](https://www.qubes-os.org/)** — "A reasonably secure operating system" using Xen-based virtualization to compartmentalize work, personal, Whonix/Tor, and untrusted disposable VMs.
 - **[GrapheneOS](https://grapheneos.org/)** — Hardened, privacy- and security-focused mobile OS for Pixel devices with sandboxed Google Play, per-app network toggles, and exploit mitigations.
 - **[Whonix](https://www.whonix.org/)** — Two-VM anonymity OS architecture (Gateway + Workstation) that prevents IP/DNS leaks even if the workstation is compromised.
@@ -195,3 +195,7 @@ A curated list of open-source digital self-defense tools, operational security g
 ## Contributing
 
 Contributions are welcome! Open a pull request or bring a tool to our monthly Cypherpunk Night clinic (doors 6:00 PM, clinic 6:30 PM / 18:30) at Frontier Tower, San Francisco.
+
+## License
+
+[MIT](LICENSE)

@@ -114,7 +114,7 @@ A curated list of open-source digital self-defense tools, operational security g
 - **[Open-Source *Trust and Safety* Curriculum (`tsbook.org`)](https://tsbook.org/)** ([`TeachingTrustSafety` on GitHub](https://github.com/trust-safety-teaching-consortium/TeachingTrustSafety)) — Full open-source textbook, lecture slides, and bot-building labs developed from Stanford's *CS 152: Trust and Safety Engineering*.
 - **[`stanfordio/skyfall`](https://github.com/stanfordio/skyfall)** — Open-source Bluesky AT Protocol firehose ingestion tool built at the Stanford Internet Observatory for studying decentralized social graphs in real time.
 - **[Journal of Online Trust and Safety (`tsjournal.org`)](https://tsjournal.org/)** — Open-access peer-reviewed research on platform manipulation and information security.
-- **[Chaos Computer Club (CCC) Media Archive (`media.ccc.de`)](https://media.ccc.de/)** — Decades of technical lectures on hardware hacking, cryptography, biometrics, and civic infrastructure from Chaos Communication Congress.
+- **[Chaos Computer Club (CCC) Media Archive (`media.ccc.de`)](https://media.ccc.de/)** — Decades of technical lectures on hardware hacking, cryptography, biometrics, and civic infrastructure from Chaos Communication Congress (every Dec 27–30 in Hamburg; 40C3 is 2026). Before each Congress, vote on the talks you want to see at the **[halfnarp (`halfnarp.events.ccc.de`)](https://halfnarp.events.ccc.de/)**, the CCC's open scheduling helper that turns audience picks into the Fahrplan.
 
 ## 8. Ad-Tech Surveillance, Fingerprinting & Computational Propaganda
 
